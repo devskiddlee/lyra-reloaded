@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "lyra-addon",
+  "version": "${version}",
+  "name": "Lyra Reloaded",
+  "description": "Lyra Reloaded is a self-made continuation of the Lyra Addon made by skiddlee",
+  "authors": [
+    "skiddlee",
+    "RattlesHyper",
+    "gasps"
+  ],
+  "contact": {
+    "repo": "https://github.com/RattlesHyper/lyra-addon"
+  },
+  "icon": "assets/lyra/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.lyra.addon.Addon"
+    ]
+  },
+  "mixins": [],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ">=1.21.5",
+    "meteor-client": "*"
+  }
+}
